@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Привет, природа!",
+    "slug": "little-nature",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FBF8EF",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.littlenature.app",
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "CFBundleLocalizations": [
+          "ru"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.littlenature.app"
+    },
+    "web": {
+      "name": "Привет, природа!",
+      "shortName": "Природа",
+      "description": "Маленькие открытия в большом мире природы. Слушаем животных и исследуем пруд вместе."
+    },
+    "plugins": [
+      ["expo-audio", {
+        "microphonePermission": false,
+        "recordAudioAndroid": false,
+        "enableBackgroundPlayback": false,
+        "enableBackgroundRecording": false
+      }],
+      "expo-font"
+    ]
+  }
+}
