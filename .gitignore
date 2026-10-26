@@ -5,6 +5,8 @@ dist-pages/
 web-build/
 coverage/
 *.tsbuildinfo
+__pycache__/
+*.py[cod]
 .DS_Store
 .env
 .env.*
